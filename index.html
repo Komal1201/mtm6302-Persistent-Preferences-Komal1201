@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferences</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="list">
+            <h2 class="list-h2">LISTS</h2> 
+            <ul id="dynamic-list">
+            </ul>
+        </div>
+        <div class="preferences-panel">
+            <h2>PREFERENCES</h2>
+            <div>
+                <label for="theme-select">Theme:</label>
+                <br>
+                <select id="theme-select">
+                    <option value="theme1">Light</option>
+                    <option value="theme2">Dark</option>
+                    <option value="theme3">Dark(High-Contrast)</option>
+                </select>
+            </div>
+            <div>
+                <label for="list-style-select">List Style Type:</label>
+                <br>
+                <select id="list-style-select">
+                    <option value="list-style1">Decimals</option>
+                    <option value="list-style2">Alphabets</option>
+                    <option value="list-style3">None</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
